@@ -1,3 +1,201 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Libre Baskerville", serif;
+  color: #f5f5f5;
+  background-color: #292929;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  overflow: hidden;
+  margin: 0;
+  font-size: 25px;
+  width:100%
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.navbar .left {
+  float: left;
+  display:block;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition-duration:0.5s;
+}
+
+.navbar a:hover {
+  color: #7a7a7a;
+  transition: 0.5s;
+}
+
+a {
+  color: #f5f5f5;
+  transition-duration: 0.5s;
+  text-decoration: underline dotted;
+  opacity: 75%;
+}
+
+a:hover {
+  color: white;
+  transition-duration: 0.5s;
+  opacity: 100%;
+}
+
+
+
+.bio {
+  margin: 50px;
+  /**border-left-color: #292929;
+  border-left-width: 10px;
+  border-left-style: solid;**/
+  font-size: 25px;
+  width: 75%;
+  height: 130%;
+}
+
+h2, p {
+  animation: fadeIn 3s;
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+
+.extendedbio 
+{
+  font-size: 20px;
+  margin-left: 80px;
+  width: 85%;
+  padding-left: 20px;
+  border-left: 3px solid #3a3a3a;
+  line-height: 1.7;
+  transition: 0.3s;
+  opacity: 85%;
+
+}
+
+.extendedbio:hover {
+  border-left: 3px solid #f5f5f5;
+  opacity: 100%;
+  transform: translateX(4px);
+  transition: 0.3s;
+}
+
+/**
+
+.project {
+  margin-bottom: 50px;
+  border-left-color: #292929;
+  border-left-width: 10px;
+  border-left-style: solid;
+  font-size: 20px;
+  width: 75%;
+}
+
+.subtext {
+  font-size: 14px;
+  font-weight: 100;
+  opacity: 75%;
+  margin:0;
+}
+
+**/
+
+.project {
+  margin: 50px;
+  padding-left: 20px;
+  border-left: 3px solid #3a3a3a;
+  width: 75%;
+  transition: 0.3s ease;
+  opacity: 90%;
+}
+
+.project:hover {
+  border-left: 3px solid #f5f5f5;
+  opacity: 100%;
+  transform: translateX(4px);
+}
+
+
+.project > p {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  font-weight: 100;
+  line-height: 1.4;
+}
+
+
+.subtext {
+  font-size: 15px;
+  color: white;
+  opacity: 80%;
+}
+
+.subtext p {
+  margin: 0;
+}
+
+.subtext a {
+  color: #cfcfcf;
+  text-decoration: underline dotted;
+  transition: 0.3s;
+}
+
+.subtext a:hover {
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  margin: 20px;
+  float: center;
+  bottom: 0%;
+}
+
+.post-container {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
+  padding: 20px;
+  text-align:center;
+  background-color: #292929;
+  overflow-y:visible;
+  margin-top: none;
+}
+
+.blogposts { 
+  padding: 20px 20px 20px 20px; 
+  text-align: center; 
+  color: white; 
+  font-size: 20px; 
+  width: 300px; 
+  border-radius: 40px; 
+  background-color: #1f1f1f; 
+  display: inline-block; 
+  margin-top: 30px; 
+  transition-duration: 0.5s; 
+}
+
+.blogposts img { 
+  width: 200px; 
+}
+
+
+
+/**
 
 html {
   height: 100%;
@@ -16,10 +214,10 @@ body {
 
 .navbar {
     background-color: black; 
-    /** #1f5de3; **/
+    /** #1f5de3; 
     overflow: hidden;
     margin: 0;
-    /**box-shadow: 0 0px 11px rgb(27, 50, 101);**/
+    /**box-shadow: 0 0px 11px rgb(27, 50, 101);
   }
   
   .navbar a {
@@ -271,3 +469,5 @@ body {
       text-align: right;
     }
   }
+
+  ***/
