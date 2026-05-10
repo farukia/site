@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://afaruki.com/sitemap.xml

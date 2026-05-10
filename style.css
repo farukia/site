@@ -193,6 +193,65 @@ footer {
   width: 200px; 
 }
 
+@media screen and (max-width: 768px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar a,
+  .navbar .left {
+    float: none;
+    width: 100%;
+    padding: 14px 0;
+    font-size: 18px;
+  }
+
+  .bio {
+    margin: 25px;
+    width: auto;
+    font-size: 20px;
+  }
+
+  .extendedbio {
+    margin: 25px;
+    width: auto;
+    padding-left: 15px;
+    font-size: 17px;
+  }
+
+  .project {
+    margin: 25px;
+    width: auto;
+  }
+
+  .project > p {
+    font-size: 18px;
+  }
+
+  .blogposts {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .blogposts img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
+}
 
 
 /**
